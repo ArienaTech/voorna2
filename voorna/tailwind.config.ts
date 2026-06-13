@@ -30,6 +30,7 @@ const config: Config = {
       fontFamily: {
         sans: ["var(--font-sans)", "Inter", "-apple-system", "sans-serif"],
         display: ["var(--font-display)", "Fraunces", "Georgia", "serif"],
+        hero: ["var(--font-hero)", "Playfair Display", "Georgia", "serif"],
         mono: ["var(--font-mono)", "Space Mono", "monospace"],
       },
       maxWidth: {
