@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display, Space_Mono } from "next/font/google";
+import { Inter, Fraunces, Playfair_Display, Space_Mono } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
@@ -8,9 +8,16 @@ const inter = Inter({
   display: "swap",
 });
 
-const playfair = Playfair_Display({
+const fraunces = Fraunces({
   subsets: ["latin"],
   variable: "--font-display",
+  display: "swap",
+  axes: ["opsz"],
+});
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-hero",
   display: "swap",
 });
 
@@ -37,7 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${playfair.variable} ${spaceMono.variable}`}
+      className={`${inter.variable} ${fraunces.variable} ${playfair.variable} ${spaceMono.variable}`}
     >
       <body className="font-sans">{children}</body>
     </html>

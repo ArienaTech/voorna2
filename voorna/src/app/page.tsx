@@ -211,7 +211,7 @@ export default function LandingPage() {
                 <span className="h-[7px] w-[7px] rounded-full bg-gold animate-pulse-dot" />
                 Live vote counting, every package
               </div>
-              <h1 className="mb-[22px] font-display text-[clamp(40px,6vw,68px)] font-semibold leading-[1.04] tracking-[-0.01em]">
+              <h1 className="mb-[22px] font-hero text-[clamp(40px,6vw,68px)] font-semibold leading-[1.04] tracking-[-0.01em]">
                 Create voting
                 <br />
                 experiences <em className="italic text-[#F97316]">in minutes.</em>
