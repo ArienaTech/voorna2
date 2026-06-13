@@ -16,10 +16,10 @@ const config: Config = {
           mute: "#ECE8DC",
         },
         gold: {
-          DEFAULT: "#F97316",
-          deep: "#C2410C",
-          bright: "#FB923C",
-          wash: "#FFF7ED",
+          DEFAULT: "#C9A24B",
+          deep: "#9C7A2E",
+          bright: "#D4AF37",
+          wash: "#F8F1DF",
         },
         line: {
           subtle: "#EEEAE0",
@@ -46,9 +46,9 @@ const config: Config = {
           to: { opacity: "1", transform: "translateY(0)" },
         },
         "pulse-dot": {
-          "0%": { boxShadow: "0 0 0 0 rgba(249,115,22,0.55)" },
-          "70%": { boxShadow: "0 0 0 8px rgba(249,115,22,0)" },
-          "100%": { boxShadow: "0 0 0 0 rgba(249,115,22,0)" },
+          "0%": { boxShadow: "0 0 0 0 rgba(201,162,75,0.55)" },
+          "70%": { boxShadow: "0 0 0 8px rgba(201,162,75,0)" },
+          "100%": { boxShadow: "0 0 0 0 rgba(201,162,75,0)" },
         },
       },
       animation: {

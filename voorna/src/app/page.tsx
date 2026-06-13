@@ -214,7 +214,7 @@ export default function LandingPage() {
               <h1 className="mb-[22px] font-display text-[clamp(40px,6vw,68px)] font-semibold leading-[1.04] tracking-[-0.01em]">
                 Create voting
                 <br />
-                experiences <em className="italic text-gold-deep">in minutes.</em>
+                experiences <em className="italic text-[#F97316]">in minutes.</em>
               </h1>
               <p className="mb-9 max-w-[480px] text-lg leading-[1.65] text-ink-soft">
                 Launch a branded voting website for your pageant, awards night,
